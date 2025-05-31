@@ -24,7 +24,7 @@ Bootstrap – Responsive grid system and prebuilt UI components
 
 React – Component-based architecture for efficient rendering and modular code
 
-📄 Page Details
+## 📄 Page Details
 All sections of the Home Page have been implemented, including:
 
 Navbar – Responsive navigation bar with links

@@ -1,0 +1,85 @@
+#nav-divider {
+  width: 1px;
+  background-color: #ccc;
+  height: 24px;
+  display: inline-block;
+  margin: 10px 10px;
+}
+.fleet-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.custom-hover-box {
+  /* background-color: lightgray; */
+  transition: background-color 0.3s ease;
+}
+
+.custom-hover-box:hover {
+  background-color: rgb(215, 215, 11);
+}
+
+.btn-hover:hover{
+  background-color: black;
+  color: white;
+}
+
+/* .carousel-item {
+  transition: transform 0.6s ease-in-out;
+} */
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+.question-text {
+  transition: color 0.2s;
+}
+
+.question-text:hover {
+  color: #ffc107; /* Bootstrap's warning yellow */
+}
+.city-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.city-card {
+  width: 160px; /* Ensures 5 fit nicely in large screen */
+}
+
+.transition-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+.social-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon:hover {
+  transform: scale(1.2) translateX(5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
